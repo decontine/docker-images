@@ -2,7 +2,7 @@
 
 ## Dockerfile-slim (17MB)
 
-PHP 8.0 
+PHP 7
 
 ```
 docker build . -t alp:1.0
@@ -15,7 +15,7 @@ http://localhost:8888/
 
 ## Dockerfile (44MB)
 
-PHP 8.0 + HTTPS
+PHP 8 + HTTPS
 
 ```
 docker build . -t alp:1.0
