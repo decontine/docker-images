@@ -15,7 +15,9 @@ http://localhost:8888/
 
 ## Dockerfile (44MB)
 
-PHP 8 + HTTPS
+PHP 8 + NGINX + HTTPS
+
+Put certificate.crt and private.key into docker/ssl
 
 ```
 docker build . -t alp:1.0
